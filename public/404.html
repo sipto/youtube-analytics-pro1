@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Analytics Pro</title>
+  <script>
+    // Redirect to index.html for SPA routing on GitHub Pages
+    const path = window.location.pathname;
+    const base = '/youtube-analytics-pro/';
+    
+    if (path !== base) {
+      window.location.replace(base + '#' + path);
+    } else {
+      window.location.replace(base);
+    }
+  </script>
+</head>
+<body>
+  <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="/youtube-analytics-pro/">click here</a>.</p>
+  </div>
+</body>
+</html>
